@@ -1,6 +1,6 @@
 /** @param {NS} ns */
 export async function main(ns) {
     while (true) {
-        await ns.hack('neo-net');
+        await ns.hack(ns.args[0]);
     }
 }
